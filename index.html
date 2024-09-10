@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div  class="container mx-auto max-sm:px-4 px-10">
+      <section class="header"></section>
+        <nav class="pt-6 px-6 ">
+          <div class="flex max-md:flex-wrap justify-between items-center">
+            <div class="flex">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-7 cursor-pointer stroke-[#0147FF]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
+                  />
+                </svg>
+              </div>
+              <div class="text-3xl  roboto-condensed cursor-pointer font-bold">
+                <span class="text-blue-600 font-bold roboto-condensed">Cars</span>Spot
+              </div>
+            </div>
+            <div class="sm:px-12">
+              <ul class="flex">
+                <li class="pr-4">
+                  <a
+                    class="relative text-black hover:text-blue-700 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-blue-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-blue-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+                    href="#"
+                    >Galeria zdjęć</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="relative text-black hover:text-blue-700 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-blue-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-blue-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+                    href="#"
+                    >FaQ</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="max-md:pt-6">
+             <button
+              class="text-white inline-block duration-300 bg-blue-700 hover:bg-blue-800  font-medium rounded-lg text-l px-6 py-3"
+              >
+              Zadzwoń do nas
+             </button>
+            </div>
+        </nav>
+      </section>
+      <section class="hero">
+        <div class="pt-20 relative px-6">
+          <div class="">
+            <h1 class="text-7xl bebas-neue-regular max-sm:text-5xl  font-semi-bold pt-3 pb-6">
+              SPRZEDAJEMY SAMOCHODY <br />
+              Z EUROPY
+            </h1>
+            <p class="pb-6 pt-6 text-xl roboto-condensed">
+              Kup komfortowy pojazd, aby każda podróż <br>
+              była wyjątkowym przeżyciem
+            </p>
+            <div class="flex-wrap  pt-6">
+              <a
+                class="mr-5 inline-block duration-300 cursor-pointer text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-l px-6 py-3"
+              >
+                Zobacz zdjęcia
+              </a>
+              <a
+                class="inline-block duration-300 cursor-pointer py-3 px-6 me-2 mb-2 text-l font-medium text-blue-700 focus:outline-none bg-white rounded-lg border border-blue-700 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              >
+                Zadzwoń do nas
+              </a>
+            </div>
+          </div>
+          <div>
+            <img
+              src="img/hero img.png"
+              class="ml-auto w-4/5 max-sm:mt-12 max-md:mt-12  right-0  pb-20"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="galeria">
+        <div class="px-6">
+          <h3 class="text-base roboto-condensed text-blue-600">Prezentacja firmy</h3>
+          <h2 class="font-semi-bold bebas-neue-regular font-bebas text-4xl mb-5">ZOBACZ NASZĄ GALERIE ZDJĘĆ</h2>
+          <div>
+            <ul class="flex">
+              <li class="pr-10">
+                <a
+                  class="relative text-black hover:text-blue-700 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-blue-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-blue-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+                  href=""
+                  >Samochody osobowe</a
+                >
+              </li>
+              <li>
+                <a
+                  class="relative text-black hover:text-blue-700 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-blue-700 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-blue-700 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+                  href=""
+                  >Samochody dostawcze</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div
+              class="relative flex flex-col items-center justify-center pb-20"
+            >
+              <div
+                class="carousel scrollbar-hide flex w-full snap-x snap-mandatory gap-16 overflow-x-scroll scroll-smooth"
+              >
+                <div
+                  class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always rounded-xl md:w-[calc(45%-(32px/2))]"
+                >
+                  <div
+                    class="absolute inset-0 flex items-center justify-center"
+                  >
+                    <img src="img/red car.jpeg" alt="" />
+                  </div>
+                </div>
+
+                <div
+                  class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always rounded-xl md:w-[calc(45%-(32px/2))]"
+                >
+                  <div
+                    class="absolute inset-0 flex items-center justify-center"
+                  >
+                    <img src="img/black car.jpeg" alt="" />
+                  </div>
+                </div>
+
+                <div
+                  class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always rounded-xl md:w-[calc(45%-(32px/2))]"
+                >
+                  <div
+                    class="absolute inset-0 flex items-center justify-center"
+                  >
+                    <img src="img/audi1.jpeg" alt="" />
+                  </div>
+                </div>
+
+                <div
+                  class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always rounded-xl md:w-[calc(45%-(32px/2))]"
+                >
+                  <div
+                    class="absolute inset-0 flex items-center justify-center"
+                  >
+                    <img src="img/grey car.jpg" alt="" />
+                  </div>
+                </div>
+
+                <div
+                  class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always rounded-xl md:w-[calc(45%-(32px/2))]"
+                >
+                  <div
+                    class="absolute inset-0 flex items-center justify-center"
+                  >
+                    <img src="img/black car.jpeg" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="pagination pb-4 flex gap-2">
+                <span
+                  class="h-3 w-3 ease-out duration-300 rounded-full bg-gray-300 w-8"
+                ></span>
+                <span
+                  class="h-3 w-3 ease-out duration-300 rounded-full bg-gray-300"
+                ></span>
+                <span
+                  class="h-3 w-3 ease-out duration-300 rounded-full bg-gray-300"
+                ></span>
+                <span
+                  class="h-3 w-3 ease-out duration-300 rounded-full bg-gray-300"
+                ></span>
+                <span
+                  class="h-3 w-3 ease-out duration-300 rounded-full bg-gray-300"
+                ></span>
+                <span
+                  class="h-3 w-3 ease-out duration-300 rounded-full bg-gray-300 md:hidden"
+                ></span>
+                <span
+                  class="h-3 w-3 ease-out duration-300 rounded-full bg-gray-300 md:hidden"
+                ></span>
+              </div>
+
+              <div>
+                <button class="prev-btn bg-gray-200 p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+                    />
+                  </svg>
+                </button>
+                <button class="next-btn bg-gray-200 p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+    <section class="footer bg-stone-800">
+        <div class="  container md:mx-auto  pt-5  w-full  px-6">
+          <div class="flex  max-md:block max-sm:justify-center justify-between ">
+            <div class="px-20 max-sm:px-4 ">
+              <h3 class="uppercase bebas-neue-regular text-xl  pt-20 text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                Dolorum dolor sit amet.
+              </h3>
+              <p class="pt-5 text-white roboto-condensed text-xs">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+                aut deleniti quidem amet cumque <br> consequuntur harum blanditiis
+                iusto perferendis deleniti
+              </p>
+              <div class="flex sm:pb-20 pt-5 underline underline-offset-8">
+                <a class="text-white" href="">Rozwiń</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6 stroke-[#ffffff]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="px-20 max-sm:px-4 ">
+              <h3 class="uppercase bebas-neue-regular text-xl pt-20 text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                Dolorum dolor sit amet.
+              </h3>
+              <p class="pt-5 text-white roboto-condensed text-xs">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+                aut deleniti quidem amet  cumque <br> consequuntur harum blanditiis
+                iusto perferendis deleniti
+              </p>
+              <div class="flex pb-20 pt-5 underline underline-offset-8">
+                <a class="text-white" href="">Rozwiń</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6 stroke-[#ffffff]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <hr >
+          <footer class="flex justify-between pb-5 pt-5 ">
+            <div class=" pl-20 max-sm:pl-4 text-white cursor-pointer">CarsSpot</div>
+            <div class="pr-20  max-sm:pr-4 underline cursor-pointer text-white">
+              Polityka prywatności
+            </div>
+          </footer>
+        </div>
+      </section>
+      <script src="index.js"></script>
+  </body>
+</html>
